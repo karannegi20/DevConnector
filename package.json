@@ -18,7 +18,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "node server",
-    "server": "node server"
+    "server": "nodemon server"
   },
   "author": "Karan Negi",
   "license": "ISC"
