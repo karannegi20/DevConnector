@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb://karan:karan@cluster0-shard-00-00-ea2k3.mongodb.net:27017,cluster0-shard-00-01-ea2k3.mongodb.net:27017,cluster0-shard-00-02-ea2k3.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "b2bf87808556c9c5a7f4",
+  "githubSecret": "e3918f0b5a5b422b17ac9f322070949cfb80a86a"
 }
