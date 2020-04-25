@@ -182,8 +182,8 @@ const EditProfile = ({
 
         {displaySocialInputs && (
           <Fragment>
-            <div class='form-group social-input'>
-              <i class='fa fa-twitter fa-2x'></i>
+            <div className='form-group social-input'>
+              <i className='fa fa-twitter fa-2x'></i>
               <input
                 type='text'
                 placeholder='Twitter URL'
@@ -193,8 +193,8 @@ const EditProfile = ({
               />
             </div>
 
-            <div class='form-group social-input'>
-              <i class='fa fa-facebook fa-2x'></i>
+            <div className='form-group social-input'>
+              <i className='fa fa-facebook fa-2x'></i>
               <input
                 type='text'
                 placeholder='Facebook URL'
@@ -204,8 +204,8 @@ const EditProfile = ({
               />
             </div>
 
-            <div class='form-group social-input'>
-              <i class='fa fa-youtube fa-2x'></i>
+            <div className='form-group social-input'>
+              <i className='fa fa-youtube fa-2x'></i>
               <input
                 type='text'
                 placeholder='YouTube URL'
@@ -215,8 +215,8 @@ const EditProfile = ({
               />
             </div>
 
-            <div class='form-group social-input'>
-              <i class='fa fa-linkedin fa-2x'></i>
+            <div className='form-group social-input'>
+              <i className='fa fa-linkedin fa-2x'></i>
               <input
                 type='text'
                 placeholder='Linkedin URL'
@@ -226,8 +226,8 @@ const EditProfile = ({
               />
             </div>
 
-            <div class='form-group social-input'>
-              <i class='fa fa-instagram fa-2x'></i>
+            <div className='form-group social-input'>
+              <i className='fa fa-instagram fa-2x'></i>
               <input
                 type='text'
                 placeholder='Instagram URL'
@@ -239,10 +239,10 @@ const EditProfile = ({
           </Fragment>
         )}
 
-        <input type='submit' class='btn btn-primary my-1' />
-        <a class='btn btn-light my-1' href='dashboard.html'>
+        <input type='submit' className='btn btn-primary my-1' />
+        <Link className='btn btn-light my-1' to='/dashboard'>
           Go Back
-        </a>
+        </Link>
       </form>
     </Fragment>
   );
